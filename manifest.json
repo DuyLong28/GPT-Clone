@@ -1,0 +1,23 @@
+{
+    "name": "Công cụ tự động đánh giá giảng viên",
+    "description": "Công cụ tự động đánh giá giảng viên. Made by Long <3",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./imgs/kiem_icon_16.png",
+            "48": "./imgs/kiem_icon_48.png",
+            "128": "./imgs/kiem_icon_128.png"
+    },
+    "icons": {
+        "16": "./imgs/kiem_icon_16.png",
+        "48": "./imgs/kiem_icon_48.png",
+        "128": "./imgs/kiem_icon_128.png"
+    }
+  }
+}

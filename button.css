@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    min-width: 306px;
+    min-height: 150px;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    box-sizing: border-box;
+    background-color: #2c74e0;
+    z-index: 1;
+    font-size: 15px;
+    margin-bottom: 6px;
+    padding: 9px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.desc-wraper {
+    z-index: 1;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: #f0f0f0;
+    padding: 12px;
+    border-radius: 4px;
+}
+.guide {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #0487fa;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+.descripttion {
+    font-size: 12px;
+}
+
+
+#autoCheckedbtn {
+    position: fixed;
+    z-index: 1;
+    left: 85%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: #0487fa;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+    min-width: 76px;
+    min-height: 23px;
+    border: none;
+    border-radius: 10px;
+}
+
+#autoCheckedbtn:hover {
+    background-color: #0487fa;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+}
